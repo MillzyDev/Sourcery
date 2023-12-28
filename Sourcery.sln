@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sourcery", "Sourcery\Sourcery.csproj", "{00192E59-5DBF-49F9-B5E7-985423BA7475}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Quest Release|Any CPU = Quest Release|Any CPU
+		Quest Debug|Any CPU = Quest Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00192E59-5DBF-49F9-B5E7-985423BA7475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00192E59-5DBF-49F9-B5E7-985423BA7475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00192E59-5DBF-49F9-B5E7-985423BA7475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00192E59-5DBF-49F9-B5E7-985423BA7475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00192E59-5DBF-49F9-B5E7-985423BA7475}.Quest Release|Any CPU.ActiveCfg = Quest Release|Any CPU
+		{00192E59-5DBF-49F9-B5E7-985423BA7475}.Quest Release|Any CPU.Build.0 = Quest Release|Any CPU
+		{00192E59-5DBF-49F9-B5E7-985423BA7475}.Quest Debug|Any CPU.ActiveCfg = Quest Debug|Any CPU
+		{00192E59-5DBF-49F9-B5E7-985423BA7475}.Quest Debug|Any CPU.Build.0 = Quest Debug|Any CPU
+	EndGlobalSection
+EndGlobal
