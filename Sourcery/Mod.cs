@@ -1,4 +1,5 @@
 ﻿using MelonLoader;
+using UnityEngine;
 
 #if !QUEST
 using Microsoft.Win32;
@@ -8,19 +9,10 @@ namespace Sourcery
 {
     public class Mod : MelonMod
     {
-#if !QUEST
-        private const string _modRegistryPath = @"HKEY_CURRENT_USER\BONELAB Mods\Sourcery";
-        private const string _noTutorialKey = "noTutorial";
-#endif
-
-        public override void OnInitializeMelon()
+        public override void OnLateInitializeMelon()
         {
-#if !QUEST
-            if (Registry.GetValue(_modRegistryPath, _noTutorialKey, null) == null)
-                Registry.SetValue(_modRegistryPath, _noTutorialKey, 0, RegistryValueKind.DWord);
-#else
-            // TODO: Quest tutorial check
-#endif
+            if (PlayerPrefs.GetInt("SourceryMod.noTutorial", -1) == -1)
+                PlayerPrefs.SetInt("SourceryMod.noTutorial", 0);
         }
     }
 }
